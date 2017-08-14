@@ -5839,8 +5839,9 @@ img {
 
 img {
   border-radius: 50%;
-  width: 110px;
-  height: 110px; }
+  width: 60%;
+  margin-right: 7%;
+  margin-left: 0%; }
 
 .col-md-12 {
   margin: 0; }
@@ -5865,5 +5866,9 @@ h2 {
 
 .stories {
   border-left: 1px solid grey; }
+
+p {
+  color: #000000;
+  margin-left: 5%; }
 
 /*# sourceMappingURL=app.css.map */
