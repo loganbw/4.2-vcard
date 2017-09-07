@@ -26,6 +26,7 @@
     "strictify": "^0.2.0",
     "uglify-js": "^2.6.1",
     "underscore": "^1.8.3",
+    "bootstrap-sass": "*",
     "watchify": "^3.7.0"
   },
   "scripts": {
