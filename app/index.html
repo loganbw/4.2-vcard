@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>Vcard</title>
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+<div class="container">
+
+</div>
+
+
+
+<script id="git-template" type="text/x-handlebars-template">
+<div class="card" id="card">
+<div class="names">
+  <div class= "head">
+    <h1 id= "col-md-12" "name">{{name}}</h1>
+  </div>
+</div>
+  <div class="col-md-4" "basics">
+    <h2>The Basics</h2>
+    <div class="info">
+    <div class="name"><span>Name:</span> {{name}}</div>
+    <div class="githuburl"><span>Github URL</span> {{login}}</div>
+    <div class="email"><span>Email:</span> {{email}}</div>
+    <div class="company"><span>Company:</span> {{company}}</div>
+    <div class="website"><span>Website:</span> {{ html_url}}</div>
+  </div>
+</div>
+  <div class="col-md-4" "story">
+<div class="stories">
+    <h2>The Story</h2>
+    <div class="bio"><p>{{bio}}</p></div>
+  </div>
+</div>
+  <div class="col-md-4" "bioPic">
+    <img src="{{avatar_url}}" alt="">
+  </div>
+  </div>
+  </script>
+
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
